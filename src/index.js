@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(el);
 
 function App() {
     
-    return <input type="number" min={5} />
+    return <input style={{border: '3px solid blue'}} type="number" min={5} />
 }
 
 root.render(<App />);
