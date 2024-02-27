@@ -6,7 +6,14 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 function App() {
-    return <h1>Hi There!</h1>;
+    const name = 'Husna';
+    const age = 37;
+
+    return (
+        <h1>
+            Hi, {name} here!, I'm {age} years old.
+        </h1>
+        );
 }
 
 root.render(<App />);
